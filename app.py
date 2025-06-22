@@ -10,5 +10,6 @@ def hello_world():
 def api_hello():
     return {'message': 'hello world'}
 
+# Auto-deployment test - this will trigger CI/CD pipeline
 if __name__ == '__main__':
     app.run(debug=True) 
